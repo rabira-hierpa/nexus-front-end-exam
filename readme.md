@@ -1,14 +1,20 @@
-# ReViT
+# Nexus Front-end Exam
 
-A React boilerplate with TypeScript, TailwindCSS and Vite.
+![Nexus PTO Demo](./demo/pto-demo.gif)
+
+## Objective
+
+- Create a responsive component that matches the given figma design
+
+Made with [ReViT](https://github.com/rabira-hierpa/revit) A React boilerplate with TypeScript, TailwindCSS and Vite.
 
 ## Installation/Usage
 
 You can start using this repo as a template or clone the repostory and start hacking
 
 ```bash
-  git clone https://github.com/rabira-hierpa/revit
-  cd vite
+  git clone https://github.com/rabira-hierpa/front-end-nexus-exam
+  cd front-end-nexus-exam
   npm install
 ```
 

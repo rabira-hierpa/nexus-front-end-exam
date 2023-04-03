@@ -1,0 +1,40 @@
+aside {
+  display: grid;
+  place-content: center;
+  background: white;
+}
+.pointers > section > div {
+  height: 80px;
+  width: 100px;
+  border-top-right-radius: 30px;
+  border-top: 4px solid #d7cffd;
+  border-right: 4px solid #d7cffd;
+}
+.pointers > section > div:nth-child(2) {
+  transform: rotate(180deg);
+  position: relative;
+  left: 96px;
+}
+.pointers > section > div:nth-child(4) {
+  transform: scaleX(-1);
+  position: relative;
+  left: 96px;
+  margin-top: -4px;
+}
+.pointers > section > div:nth-child(5) {
+  transform: scaleY(-1);
+}
+.pointers > section {
+  position: relative;
+}
+.pointers > section > hr {
+  border-top: 4px solid #d7cffd;
+  position: relative;
+  margin: 0px;
+  margin-top: -4px;
+  width: 200px;
+}
+
+.pointers > section > .active {
+  border-color: #9d71fd !important;
+}
